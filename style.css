@@ -5,8 +5,12 @@
     border: black solid 2px;
     grid-template-columns: repeat(7,50px); 
     grid-template-rows: repeat(12,50px);
+    border-style: outset;
 }
 
+ .container div {
+    border-style: outset;
+}
 
 .container :nth-child(1){ 
     background-color: blue;
